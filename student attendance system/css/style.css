@@ -1,0 +1,74 @@
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+} 
+a:focus {
+    outline: none;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+}
+
+.login .card {
+    height: auto;
+    background: #d8eced8e;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 30px;
+    margin: 50px auto 0 auto;
+    width: 30%;
+    border-radius: 5px;
+}
+.login .card h5 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #1f1e1e;
+    padding-bottom: 20px;
+}
+.login .card h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #33466a;
+    text-transform: uppercase;
+}
+.login .form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 5px 0;
+}
+input[type="text" i],
+input[type="password" i] {
+    padding: 0;
+}
+.login .login-form button {
+    background-color: #435f93;
+    outline: none;
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 3px;
+}

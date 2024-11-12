@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../includes/material-icons.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 5px 0;
+}
+input[type="text" i],
+input[type="password" i] {
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    padding: 10px 5px;
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+table td {
+    padding: 8px 5px;
+    border-bottom: 1px solid #dee2e6;
+}
+.table-responsive {
+    padding: 10px;
+}
+td .text-danger {
+    color: red;
+    text-align: center;
+}
+button:hover {
+    cursor: pointer;
+}

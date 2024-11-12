@@ -1,0 +1,275 @@
+ul,ol{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}  
+a,a:hover,a:focus{
+	color:#333;
+	text-decoration:none;
+	transition:all 0.3s;
+}
+body,html{
+	line-height:1.8;
+	font-family:'Poppins',sans-serif;
+	color:#555e58;
+	text-transform:capitalize;
+	font-weight:400;
+	margin:0px;
+	padding:0px;
+}
+.dashboard-body {
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+}
+.body-left {
+    width: 20%;
+}
+.body-right{
+    width: 80%;
+}
+.sidebar{
+	height:100%!important;
+	top:0;
+	left:0;
+	bottom:0;
+	overflow:auto;
+	background-color:#fff;
+	box-shadow:0 0 30px 0 rgba(200 200 200 / 20%);
+    border-right: 1px solid #eee;
+}
+.sidebar .sidebar-header{
+	padding:20px;
+	background-color:#fff;
+	border-bottom:1px solid #eee;
+}
+hr {
+    border: 1px solid #eee;
+}
+.sidebar-header h3{
+	color:#333;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:600;
+}
+.sidebar-header h3 img{
+	width:45px;
+	margin-right:10px;
+	vertical-align: middle;
+}
+.sidebar ul li{
+	padding:2px 0px;
+}
+.sidebar ul li a:hover{
+	color:#4c7cf3;
+	background-color:#DBE5FD;
+	border-right: 3px solid #0f67af;
+}
+.sidebar ul{
+	padding:20px 0px;  
+}
+.sidebar ul li a{
+	padding:5px 10px 5px 20px;
+	line-height:30px;
+	font-size:14px;
+	position:relative;
+	font-weight:400;
+	display:block;
+	color:#777777;
+	text-transform:capitalize;
+} 
+.sidebar ul li a i{
+	position:relative;
+	margin-right:10px;
+	top:6px;
+}
+.sidebar .sidemenu-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #a8a7a7;
+	padding-left: 20px;
+}
+/* topbar */
+.body-right{
+	position:relative;
+	transition:all 0.5s;
+	background-color:#f1f1f1;
+    height: 100%;
+}
+.topbar{
+	width:100%;
+	z-index:9;
+	position:relative;
+	padding:15px 30px;
+	background-color: #fff;
+}
+.navbar {
+	text-align: right;
+	margin-right: 100px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+	top: 0;
+	right: 0;
+}
+.dropdown .profile a{
+	color: #202020;
+	font-size: 14px;
+	font-weight: 500;
+}
+.dropdown .profile img {
+	vertical-align: middle;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	background-color: #fff;
+	border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0 0 0 / 26%);
+	right: 0;
+	left: auto;
+}
+.dropdown-content a {
+	display: flex;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #333;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0 5px;
+}
+.dropdown-content span {
+	padding-right: 5px;
+	font-size: 18px;
+}
+
+.footer{
+	background-color:#353b48;
+	color:#fff;
+	text-align:center;
+	padding:2px 20px;
+	position:relative;
+	width:100%;
+	bottom: 0;
+}
+.main-content{
+	padding:30px 30px 0px 30px;
+}
+.main-content h4{
+	font-size:22px;
+	color:#585858;
+	margin-bottom:0;
+	margin-top:0;
+}
+/*-------dashboard design start------*/
+.card-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dashboard .dcard {
+	padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	color: #fff;
+	border-radius: 4px;
+	margin: 40px 0;
+    width: 20%;
+}
+.dashboard .dcard h5 {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0;
+}
+.dashboard .dcard ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-size: 20px;
+	font-weight: 500;
+}
+.dashboard .dcard ul li i {
+	font-size: 30px;
+}
+.dashboard .d1 {
+	background-color: #7b57b6;
+}
+.dashboard .d2{
+	background-color: #71c02b;
+}
+.dashboard .d3 {
+	background-color: #248afd;
+}
+.dashboard .d4 {
+	background-color: #ffc100;
+}
+/*-------dashboard design end------*/
+.create-class,
+.create-lecturer,
+.create-student {
+	padding: 30px 0;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+    padding: 1.25rem;
+}
+.create-class .card-header h6,
+.create-lecturer .card-header h6,
+.create-student .card-header h6 {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin: 0;
+}
+.create-class .card-header h6,
+.create-lecturer .card-header h6,
+.create-student .card-header h6 {
+	font-size: 14px;
+}
+.card-body input {
+    width: 48%;
+    padding-left: 10px !important;
+}
+.card-body button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0f67af;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Poppins',sans-serif;
+    margin-top: 10px;
+}
+
+/*-------createclass design end------*/
+.create-student form,
+.create-lecturer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.create-student .input-list,
+.create-lecturer .input-list {
+    width: 48%;
+    margin-bottom: 15px;
+}
+.create-student input ,
+.create-lecturer input{
+    width: 100%;
+}
